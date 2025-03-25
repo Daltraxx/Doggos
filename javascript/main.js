@@ -14,7 +14,7 @@ addDropdownOptions(breedNameToID, breedDropdown);
 
 const getDogs = async(breedID) => {
     const apiKey = 'live_MpIN6flxnOmsS538pI3kyUEFDpXsLOcpVC9XM0k2CLzj8NIM8jyzbjJ8CMrmPbRz';
-    const endpoint = `https://api.thedogapi.com/v1/images/search?limit=11&breed_ids=${breedID}&api_key=${apiKey}`;
+    const endpoint = `https://api.thedogapi.com/v1/images/search?limit=10&breed_ids=${breedID}&api_key=${apiKey}`;
     try {
         const res = await fetch(endpoint);
         if (res.ok) {
