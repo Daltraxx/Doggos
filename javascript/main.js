@@ -3,7 +3,7 @@ import { addDropdownOptions } from "./addDropdownOptions.js";
 import { clearUL } from "./clearUL.js";
 import { getDogsUL, displayDogsUl } from "./getAndDisplayDogs.js";
 
-const imgContainer = document.querySelector('.dog');
+
 const breedNameToID = await getBreedsList();
 const breedDropdown = document.querySelector('#breed-select');
 const breedSubmitButton = document.querySelector('.breed-submit');

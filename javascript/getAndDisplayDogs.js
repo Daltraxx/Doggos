@@ -5,6 +5,7 @@ const getDogsUL = (dogs) => {
         const li = document.createElement('li');
         const img = document.createElement('img');
         img.src = dog.url;
+        img.classList.add('dog-img');
         img.alt = `picture of ${dog.breeds[0].name} dog`;
         li.appendChild(img);
         ul.appendChild(li);

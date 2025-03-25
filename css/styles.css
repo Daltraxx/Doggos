@@ -1,0 +1,37 @@
+/*--------------------------
+-------BASE
+--------------------------*/
+
+html {
+    font-size: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+/*--------------------------
+-------LAYOUT
+--------------------------*/
+main {
+    text-align: center;
+}
+
+.dogs-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dog-img {
+    height: 20rem;
+    margin: 1rem 2rem;
+}
+
+
+/*--------------------------
+-------ADDITIONAL STYLING
+--------------------------*/
+
+
+
