@@ -1,4 +1,4 @@
-import { getBreedsList } from "./javascript/getBreedsList.js";
+import { getBreedsList } from "./getBreedsList.js";
 
 const imgContainer = document.querySelector('.dog');
 
